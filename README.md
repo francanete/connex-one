@@ -22,6 +22,21 @@ cd connex-one
 yarn build
 ```
 
+### Create .env files
+
+Inside `apps/frontend` folder create a file called `.env` and the following variable:
+
+```
+REACT_APP_TOKEN=mysecrettoken
+```
+
+Inside `apps/backend` folder create a file called `.env` and the following variables:
+
+```
+PORT=8000
+TOKEN=mysecrettoken
+```
+
 ### Develop
 
 To develop all apps and packages, run the following command:
